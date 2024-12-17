@@ -3,32 +3,37 @@ name: Deploy Jekyll site to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - main  # Gatilho para quando houver push na branch "main"
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # Ambiente Ubuntu
 
     steps:
+      # 1. Checkout do código
       - name: Checkout do código
         uses: actions/checkout@v3
 
+      # 2. Configurar Ruby e Jekyll
       - name: Configurar Ruby e Jekyll
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.1
+          ruby-version: 3.1  # Versão do Ruby
 
+      # 3. Instalar dependências do projeto
       - name: Instalar dependências
         run: |
           gem install bundler
           bundle install
 
+      # 4. Construir o site com Jekyll
       - name: Build Jekyll site
         run: bundle exec jekyll build
 
+      # 5. Fazer o deploy para o GitHub Pages
       - name: Deploy para GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
-          publish_branch: gh-pages
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Token para autorização
+          publish_dir: ./_site  # Diretório onde o Jekyll gera o site
+          publish_branch: gh-pages  # Branch para o GitHub Pages
