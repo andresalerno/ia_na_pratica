@@ -1,17 +1,9 @@
----
-layout: default
-title: IA na Prática I
-description: Projetos e ferramentas de IA aplicadas à gestão e produtividade.
----
 
-<link rel="stylesheet" href="assets/custom.css">
-
-
-<!-- <p align="center">
+<p align="center">
   <a href="https://ipog.edu.br/cursos/pos-graduacao/mba-em-inteligencia-artificial-para-gestao-e-negocios">
     <img src="https://ipog.edu.br/_next/image?url=%2Flogo-ipog.png&w=1920&q=75" alt="IPOG" width="300" />
   </a>
-</p> -->
+</p>
 
 
 <p align="center">
