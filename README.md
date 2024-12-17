@@ -81,9 +81,8 @@ O processo de implementação de **RPA** envolve as seguintes etapas:
 
 - **RPA**: Automatiza **tarefas estruturadas e baseadas em regras**.  
 - **IA**: Aprende com dados, identifica padrões e toma decisões.
-
-> **Combinação RPA + IA**: Permite automação **inteligente**. Por exemplo:  
-> Uso de **OCR (Reconhecimento de Texto)** para leitura de documentos e **análise preditiva**.
+- **Combinação RPA + IA**: Permite automação **inteligente**. Por exemplo:  
+- Uso de **OCR (Reconhecimento de Texto)** para leitura de documentos e **análise preditiva**.
 
 ---
 
