@@ -1,0 +1,25 @@
+# Logs e arquivos temporários
+_site/
+.sass-cache/
+.jekyll-cache/
+jekyll-metadata
+log/
+tmp/
+
+# Arquivos específicos do sistema
+*.log
+.DS_Store
+Thumbs.db
+
+# Arquivos compilados
+*.gem
+*.lock
+*.pid
+*.swp
+
+# GitHub Pages
+vendor/bundle/
+
+# Arquivos de configuração ou personalização
+Gemfile.lock
+.env

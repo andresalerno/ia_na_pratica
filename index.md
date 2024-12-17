@@ -1,10 +1,24 @@
+---
+layout: default
+title: IA na Prática I
+description: Projetos e ferramentas de IA aplicadas à gestão e produtividade.
+---
 
-<p align="center">
+<link rel="stylesheet" href="assets/custom.css">
+
+
+<!-- <p align="center">
   <a href="https://ipog.edu.br/cursos/pos-graduacao/mba-em-inteligencia-artificial-para-gestao-e-negocios">
     <img src="https://ipog.edu.br/_next/image?url=%2Flogo-ipog.png&w=1920&q=75" alt="IPOG" width="300" />
-  <a/>
+  </a>
+</p> -->
+
+
+<p align="center">
+  <strong style="font-size: 36px;">🎓 Professor André Salerno</strong>
 </p>
 
+---
 
 # 🌟 **IA na Prática I**
 
@@ -116,9 +130,10 @@ Aqui estão algumas das plataformas mais utilizadas:
 <p align="center">
   <a href="http://www.datafintechsolutions.com">
     <img src="https://www.datafintechsolutions.com/img/logo.png" alt="Data FinTech Solutions" width="120"/>
-  <a/>
+  </a>
 </p>
 
 <p align="center">
   <strong>© 2024 Data FinTech Solutions | Todos os direitos reservados.</strong>
 </p>
+
