@@ -1,7 +1,7 @@
 
 <p align="center">
-  <a href="https://ipog.edu.br/">
-    <img src="https://ipog.edu.br/cursos/pos-graduacao/mba-em-inteligencia-artificial-para-gestao-e-negocios" alt="IPOG" width="300" />
+  <a href="https://ipog.edu.br/cursos/pos-graduacao/mba-em-inteligencia-artificial-para-gestao-e-negocios">
+    <img src="https://ipog.edu.br/_next/image?url=%2Flogo-ipog.png&w=1920&q=75" alt="IPOG" width="300" />
   <a/>
 </p>
 
