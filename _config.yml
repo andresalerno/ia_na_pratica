@@ -1,3 +1,7 @@
-remote_theme: pages-themes/cayman@v0.2.0
+# _config.yml
 title: IA na Prática I
 description: Projetos e ferramentas de IA aplicadas à gestão e produtividade.
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
