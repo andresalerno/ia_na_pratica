@@ -36,4 +36,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}  # Token para autorização
           publish_dir: ./_site  # Diretório onde o Jekyll gera o site
-          publish_branch: gh-pages  # Branch para o GitHub Pages
+          publish_branch: main  # Branch para o GitHub Pages
